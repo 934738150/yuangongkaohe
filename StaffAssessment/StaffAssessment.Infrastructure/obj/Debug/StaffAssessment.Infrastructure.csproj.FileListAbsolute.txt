@@ -1,0 +1,5 @@
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\bin\Debug\StaffAssessment.Infrastructure.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\bin\Debug\StaffAssessment.Infrastructure.pdb
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\obj\Debug\StaffAssessment.Infrastructure.csprojResolveAssemblyReference.cache
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\obj\Debug\StaffAssessment.Infrastructure.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\obj\Debug\StaffAssessment.Infrastructure.pdb

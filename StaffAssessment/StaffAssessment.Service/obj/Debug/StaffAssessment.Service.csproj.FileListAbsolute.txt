@@ -1,0 +1,9 @@
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\StaffAssessment.Service.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\StaffAssessment.Service.pdb
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\SqlServerDataAdapter.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\StaffAssessment.Infrastructure.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\AutoMapper.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\bin\Debug\StaffAssessment.Infrastructure.pdb
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\obj\Debug\StaffAssessment.Service.csprojResolveAssemblyReference.cache
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\obj\Debug\StaffAssessment.Service.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Service\obj\Debug\StaffAssessment.Service.pdb
