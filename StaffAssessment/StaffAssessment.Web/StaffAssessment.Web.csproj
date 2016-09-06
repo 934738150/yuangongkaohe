@@ -72,8 +72,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\ealib\themes\icons\calculator.png" />
     <Content Include="lib\pllib\syntaxhighlighter\LGPL-LICENSE" />
     <Content Include="lib\pllib\syntaxhighlighter\MIT-LICENSE" />
+    <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1595,14 +1597,54 @@
     <Content Include="lib\pllib\syntaxhighlighter\styles\shThemejqPlot.min.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.min.css" />
+    <Content Include="UI_StaffAssessment\AssessmentVersionDefine.aspx" />
+    <Content Include="UI_StaffAssessment\js\page\AssessmentVersionDefine.js" />
+    <Content Include="UI_StaffAssessment\js\page\StaffAssessment.js" />
+    <Content Include="UI_StaffAssessment\js\page\StaffAssessmentRanking.js" />
+    <Content Include="UI_StaffAssessment\js\page\StaffAssessmentResultDetial.js" />
+    <Content Include="UI_StaffAssessment\StaffAssessment.aspx" />
+    <Content Include="UI_StaffAssessment\StaffAssessmentRanking.aspx" />
+    <Content Include="UI_StaffAssessment\StaffAssessmentResultDetial.aspx" />
     <Content Include="UI_StaffSignIn\js\page\StaffSignIn.js" />
     <Content Include="UI_StaffSignIn\js\page\StaffSignInModify.js" />
     <Content Include="UI_StaffSignIn\StaffSignIn.aspx" />
     <Content Include="UI_StaffSignIn\StaffSignInModify.aspx" />
+    <Content Include="UI_WorkingSection\js\page\SectionWorkingTime.js" />
+    <Content Include="UI_WorkingSection\js\page\WorkingSectionDefine.js" />
+    <Content Include="UI_WorkingSection\SectionWorkingTime.aspx" />
+    <Content Include="UI_WorkingSection\WorkingSectionDefine.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI_StaffAssessment\AssessmentVersionDefine.aspx.cs">
+      <DependentUpon>AssessmentVersionDefine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\AssessmentVersionDefine.aspx.designer.cs">
+      <DependentUpon>AssessmentVersionDefine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessment.aspx.cs">
+      <DependentUpon>StaffAssessment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessment.aspx.designer.cs">
+      <DependentUpon>StaffAssessment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessmentRanking.aspx.cs">
+      <DependentUpon>StaffAssessmentRanking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessmentRanking.aspx.designer.cs">
+      <DependentUpon>StaffAssessmentRanking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessmentResultDetial.aspx.cs">
+      <DependentUpon>StaffAssessmentResultDetial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_StaffAssessment\StaffAssessmentResultDetial.aspx.designer.cs">
+      <DependentUpon>StaffAssessmentResultDetial.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI_StaffSignIn\StaffSignIn.aspx.cs">
       <DependentUpon>StaffSignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1617,13 +1659,29 @@
     <Compile Include="UI_StaffSignIn\StaffSignInModify.aspx.designer.cs">
       <DependentUpon>StaffSignInModify.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI_WorkingSection\SectionWorkingTime.aspx.cs">
+      <DependentUpon>SectionWorkingTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_WorkingSection\SectionWorkingTime.aspx.designer.cs">
+      <DependentUpon>SectionWorkingTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_WorkingSection\WorkingSectionDefine.aspx.cs">
+      <DependentUpon>WorkingSectionDefine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_WorkingSection\WorkingSectionDefine.aspx.designer.cs">
+      <DependentUpon>WorkingSectionDefine.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\page\" />
     <Folder Include="images\common\" />
     <Folder Include="images\page\" />
     <Folder Include="js\page\" />
+    <Folder Include="UI_StaffAssessment\js\common\" />
     <Folder Include="UI_StaffSignIn\js\common\" />
+    <Folder Include="UI_WorkingSection\js\common\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StaffAssessment.Infrastructure\StaffAssessment.Infrastructure.csproj">

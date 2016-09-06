@@ -1,0 +1,4 @@
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\bin\Release\StaffAssessment.Infrastructure.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\bin\Release\StaffAssessment.Infrastructure.pdb
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\obj\Release\StaffAssessment.Infrastructure.dll
+E:\NXJC\项目文件\yuangongkaohe\StaffAssessment\StaffAssessment.Infrastructure\obj\Release\StaffAssessment.Infrastructure.pdb

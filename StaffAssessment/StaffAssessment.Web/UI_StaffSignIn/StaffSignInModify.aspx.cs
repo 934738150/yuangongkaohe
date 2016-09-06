@@ -31,14 +31,14 @@ namespace StaffAssessment.Web.UI_StaffSignIn
         [WebMethod]
         public static string GetStaffInfo(string mOrganizationID)
         {
-            DataTable table = StaffSignInService.GetStaffInfoTable(mOrganizationID);
+            DataTable table = StaffSignInModifyService.GetStaffInfoTable(mOrganizationID);
             string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
             return json;   
         }
         [WebMethod]
         public static string GetHistoryStaffSignInData(string mOrganizationId, string mStaffId, string mStartTime, string mEndTime)
         {
-            DataTable table = StaffSignInService.GetHistoryStaffSignInTable(mOrganizationId, mStaffId, mStartTime, mEndTime);
+            DataTable table = StaffSignInModifyService.GetHistoryStaffSignInTable(mOrganizationId, mStaffId, mStartTime, mEndTime);
             string json =EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table) ;
             return json;
         }

@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="commonClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffAssessment\AssessmentVersionDefineService.cs" />
+    <Compile Include="StaffAssessment\StaffAssessmentRankingService.cs" />
+    <Compile Include="StaffAssessment\StaffAssessmentResultDetialService.cs" />
+    <Compile Include="StaffAssessment\StaffAssessmentService.cs" />
+    <Compile Include="StaffSignIn\StaffSignInModifyService.cs" />
     <Compile Include="StaffSignIn\StaffSignInService.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="WorkingSection\SectionWorkingTimeService.cs" />
+    <Compile Include="WorkingSection\WorkingSectionDefineService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StaffAssessment.Infrastructure\StaffAssessment.Infrastructure.csproj">
@@ -52,6 +61,7 @@
       <Name>StaffAssessment.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
